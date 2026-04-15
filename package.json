@@ -1,0 +1,13 @@
+{
+  "name": "acme-generator-api",
+  "version": "1.0.0",
+  "description": "API для генерации ключей SSL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "acme-client": "^5.0.0"
+  }
+}
